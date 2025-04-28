@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Car{
+  background-color: red;
+}
+
+
+
+
+ .create{
+  max-width:400px ;
+  text-align: center;
+ }
+ .create label{
+  text-align: left;
+  display: block;
+ }
+ .create input .textarea .select{
+
+ width: 100%;
+ padding:6px 10px;
+
+ }

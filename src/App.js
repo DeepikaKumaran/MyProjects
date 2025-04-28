@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import{BrowserRouter as Router,Routes,Route,Switch,Link} from 'react-router-dom';
+import Home from './Component/Home';
+import Greet from'./Component/Greet';
 
-function App() {
+function App() { 
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +20,12 @@ function App() {
         >
           Learn React
         </a>
+        
+
+        
       </header>
+
+      
     </div>
   );
 }
